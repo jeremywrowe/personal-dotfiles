@@ -24,7 +24,7 @@ zinit light-mode for \
 . $(brew --prefix asdf)/libexec/asdf.sh
 
 ### ALIASES
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/.git/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias cloud="cd '$HOME/Library/Mobile Documents/com~apple~CloudDocs/'"
 alias reload="exec $SHELL"
 
